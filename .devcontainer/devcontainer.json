@@ -44,7 +44,12 @@
 		}
 	},
 	// Configure tool-specific properties.
-	"customizations": {
+	"features": {
+      "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+      }
+    },
+    "customizations": {
 		"vscode": {
 			"settings": {
 				"git.autofetch": true
